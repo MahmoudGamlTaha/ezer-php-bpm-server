@@ -1,0 +1,13 @@
+<config>
+	<phpExe>C:\wamp\bin\php\php5.5.12\php.exe</phpExe>
+	<database>
+		<datasources default="ezer">
+			<ezer adapter="mysql">
+				<connection phptype="mysql" database="ezer" hostspec="localhost"
+					user="root" password="root@1234"
+					dsn="mysql:host=localhost;dbname=ezer;user=root;password=root@1234;" />
+			</ezer>
+			<log ident="ezer" level="7" />
+		</datasources>
+	</database>
+</config>
